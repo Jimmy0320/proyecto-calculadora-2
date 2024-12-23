@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #232323;
+  display: grid;
+  place-items: center;
+}
+
+.calculadora {
+  background-color: #48bfff;
+  color: #e5cece;
+  width: 250px;
+  max-width: 100%;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .5rem;
+  box-shadow: 0 0 20px #48bfff;
+}
+
+.pantalla {
+  grid-column: 1 / 5;
+  background-color: #090c31;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: right;
+  border-radius: .5rem;
+  margin-bottom: 1.5rem;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #006da7;
+  color: white;
+  border: 0;
+  padding: 1.5rem .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5rem;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #004778;
+}
+
+#cero {
+  grid-column: span 2;
+}
+
+#igual {
+  grid-row: span 2;
+  background-color: #e65766;
+}
+
+#igual:hover {
+  background-color: #e6394e;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dcd6f7;
+  /* Fondo general */
+  color: #333;
+  text-align: center;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #99a2f6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-derecha {
+  display: block;
+  margin: 20px 20px 0 auto;
+  /* Ajusta los márgenes */
+  width: 150px;
+  height: auto;
+  max-width: 100%;
+  float: right;
+  /* Para alinear la imagen a la derecha */
+}
+
+.encabezado {
+  background-color: #283747;
+  color: white;
+  padding: 10px 0;
+  border-radius: 10px 10px 0 0;
+
+}
+
+.encabezado h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.instrucciones {
+  text-align: left;
+  background-color: #fdfefe;
+  padding: 15px;
+  margin: 10px 0 20px 0;
+  /* Añade margen inferior */
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.instrucciones h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.instrucciones ul,
+.instrucciones ol {
+  padding-left: 20px;
+
+
+}
+
+.calculadora {
+  margin: 0 auto;
+  padding: 20px;
+  width: 320px;
+  /* Ajusta según el tamaño de tu calculadora */
+  background-color: #ede091;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.explicacion-funciones {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.explicacion-funciones h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.exposicion-calculadora {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.exposicion-calculadora h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.exposicion-calculadora p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+  text-align: justify;
+}
+
+.calculadora-container {
+  position: relative;
+  width: 400px;
+  /* Ajusta al tamaño de la calculadora */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-calculadora {
+  position: absolute;
+  bottom: 10px;
+  /* Ajusta la distancia desde el fondo de la calculadora */
+  left: 0;
+  right: 0;
+  background-color: #99a2f6;
+  /* Puedes cambiar el color de fondo */
+  padding: 5px;
+}
+
+.footer-calculadora p {
+  font-size: 0.9em;
+  margin: 0;
+  color: #333;
+  font-family: Arial, sans-serif;
+  border: 1px solid #3b2a2a;
+  border-radius: 5px;
+  
+}
